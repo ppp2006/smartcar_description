@@ -1,0 +1,12 @@
+digraph G {
+"base_footprint" -> "head"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.203 Hz\nMost recent transform: 1427772258.093 \nBuffer length: 4.940 sec\n"];
+"odom" -> "base_footprint"[label="Broadcaster: /qbo_arduqbo\nAverage rate: 15.280 Hz\nMost recent transform: 1427772257.599 \nBuffer length: 4.843 sec\n"];
+"head" -> "model_left_eye"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.203 Hz\nMost recent transform: 1427772258.093 \nBuffer length: 4.940 sec\n"];
+"base_footprint" -> "model_left_wheel"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.203 Hz\nMost recent transform: 1427772258.093 \nBuffer length: 4.940 sec\n"];
+"head" -> "model_right_eye"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.203 Hz\nMost recent transform: 1427772258.093 \nBuffer length: 4.940 sec\n"];
+"base_footprint" -> "model_right_wheel"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.203 Hz\nMost recent transform: 1427772258.093 \nBuffer length: 4.940 sec\n"];
+"head" -> "model_xtion"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.203 Hz\nMost recent transform: 1427772258.093 \nBuffer length: 4.940 sec\n"];
+"head" -> "model_xtion_stork"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.203 Hz\nMost recent transform: 1427772258.093 \nBuffer length: 4.940 sec\n"];
+"model_left_eye" -> "model_left_pupil"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.203 Hz\nMost recent transform: 1427772258.093 \nBuffer length: 4.940 sec\n"];
+"model_right_eye" -> "model_right_pupil"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.203 Hz\nMost recent transform: 1427772258.093 \nBuffer length: 4.940 sec\n"];
+}
